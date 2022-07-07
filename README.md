@@ -32,5 +32,5 @@ https://user-images.githubusercontent.com/70506573/177790293-78b02812-db78-4a24-
 
 
 ### Credits
-- (Rishabh Sethi)[https://github.com/Rishabh2003] - Friend Who Came Up With The Idea.
-- (Rounak Bisen)[https://github.com/Rounak826/Rounak826] - Brother Who Helped Me In Building The Logic.
+- [Rishabh Sethi](https://github.com/Rishabh2003) - Friend Who Came Up With The Idea.
+- [Rounak Bisen](https://github.com/Rounak826/Rounak826) - Brother Who Helped Me In Building The Logic.
