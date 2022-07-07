@@ -29,3 +29,8 @@ https://user-images.githubusercontent.com/70506573/177790293-78b02812-db78-4a24-
 - The IR module can be replaced with the laser and photosensor to make a grid-like structure with the help of small mirrors.
 - 3 sensors can be used instead of 2 to make it more precise, changes to the code have to be done accordingly.
 - Multiple relays can be used for multiple automation purposes as per person count. 
+
+
+### Credits
+- (Rishabh Sethi)[https://github.com/Rishabh2003] - Friend Who Came Up With The Idea.
+- (Rounak Bisen)[https://github.com/Rounak826/Rounak826] - Brother Who Helped Me In Building The Logic.
