@@ -16,14 +16,13 @@ At first, we thought of using a face detection model and deploying it to Arduino
 Due to resource limitations on the online simulator, the single-channel relay has been replaced with a DPDT relay but connections will be likely the same. \
 
 ![Connection_Image](PersonCounterConnectionWokwi.png) 
-\
+
 ### Working
 - The model consists of two Individual IR sensor modules both will be installed in the door one will be inside the room and another will be outside of the room but the distance between them is not too much, around 15 cm should do the work. When a person is entering the room it will first trigger the outer sensor and then until he crosses the inner sensor he won't be counted as inside the room and vice-versa.
 - The last count is stored in the memory of the Arduino. To reset it a push-button has been installed which on holding for about 2 seconds will reset the count to zero. 
 - The single-channel relay is used to automate the room lighting. When the first person enters the room the lights will light up and when the last person leaves the room the lights will go down.
 
 ### Working Video
-
 https://user-images.githubusercontent.com/70506573/177790293-78b02812-db78-4a24-8622-21c4a4987612.mp4
 
 ### Possible Upgrades/Changes
