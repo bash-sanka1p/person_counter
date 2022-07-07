@@ -21,3 +21,13 @@ At first, we thought of using a face detection model and deploying it to Arduino
 ### Connection
 Due to resource limitations on the online simulator, the single-channel relay has been replaced with a DPDT relay but connections will be likely the same. \
 ![Connection_Image](PersonCounterConnectionWokwi.png)
+
+### Working Video
+
+
+
+
+### Possible Upgrades/Changes
+- The IR module can be replaced with the laser and photosensor to make a grid-like structure with the help of small mirrors.
+- 3 sensors can be used instead of 2 to make it more precise, changes to the code have to be done accordingly.
+- Multiple relays can be used for multiple automation purposes as per person count. 
