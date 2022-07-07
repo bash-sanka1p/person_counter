@@ -13,3 +13,7 @@ In our college and my previous school every day after lunch the peon used to vis
 At first, we thought of using a face detection model and deploying it to Arduino, so that it could count the number of people and as well as take the attendance of the students. But..... there were two problems with that. None of us knew TinyML so after building the model we might have to spend time learning TinyML another is that the face detection model counts an image too, so anyone could have fooled the system by just showing the picture of a person.  So I decided to use the IR sensor module. But after our whole project was built then I got to know that there were two types of IR, near and far, and I had the near one so its range was not more than around 5cm. I searched for the far IR module in the offline market but it wasn’t available. So for demonstration purposes, I went with the near IR. Laser and Photo sensors could also have been used but we dint went for that. 
 
 ### Working
+The model consists of two Individual IR sensor modules both will be installed in the door one will be inside the room and another will be outside of the room but the distance between them is not too much, around 15 cm should do the work. When a person is entering the room it will first trigger the outer sensor and then until he crosses the inner sensor he won't be counted as inside the room and vice-versa.
+
+### Connection
+![Connection_Image](PersonCounterConnectionWokwi.jpg)
